@@ -1,0 +1,13 @@
+gitlingo/
+├── backend/
+│   ├── app.py
+│   ├── corpus.json
+│   └── requirements.txt
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── App.css
+│   │   ├── App.js
+│   │   └── index.js
+│   └── package.json
+└── README.md
