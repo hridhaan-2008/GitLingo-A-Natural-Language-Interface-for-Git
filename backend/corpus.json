@@ -1,0 +1,46 @@
+[
+  {
+    "command": "git stash",
+    "description": "Temporarily shelves (stashes) changes you've made to your working copy so you can work on something else.",
+    "intent_phrases": [
+      "save my work for now without committing",
+      "put my changes aside for later",
+      "hide my current work",
+      "temporarily save my progress",
+      "how do I save my changes but not commit them yet"
+    ]
+  },
+  {
+    "command": "git log --oneline",
+    "description": "Shows a compressed, one-line view of the commit history.",
+    "intent_phrases": [
+      "show me a short history of the commits",
+      "list all commits in a compact way",
+      "view the commit log on one line per commit",
+      "see the history"
+    ]
+  },
+  {
+    "command": "git checkout -b <new-branch-name>",
+    "description": "Creates a new branch and switches to it in one command.",
+    "intent_phrases": [
+      "make a new branch and switch to it",
+      "create a new feature branch to work on",
+      "start a new line of work",
+      "how do I make a new branch"
+    ]
+  },
+  {
+    "command": "git reset HEAD~1",
+    "description": "Undoes the most recent commit, keeping the changes in your working directory.",
+    "intent_phrases": [
+      "undo the last commit I just made",
+      "I made a mistake in my last commit, how to undo it",
+      "go back one commit",
+      "reverse my last commit"
+    ]
+  }
+]```
+
+#### `backend/requirements.txt`
+These are the Python libraries you need.
